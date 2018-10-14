@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "TigerHacksPractice",
+    "version":  "1.7",
+    "description": "Global Dark Theme",
+    "content_scripts": [{
+        "css": ["style.css"],
+        "matches": ["<all_urls>"]
+    }]
+}
+
+  
